@@ -1,10 +1,3 @@
-/* =====================================
-   LUXORA - PREMIUM CLEANING SOLUTIONS
-   MAIN STYLESHEET
-===================================== */
-
-/* COLOUR VARIABLES */
-
 :root {
   --primary: #082567;
   --secondary: #38bdf8;
@@ -12,8 +5,6 @@
   --silver: #c9d6e8;
   --dark: #071426;
 }
-
-/* GENERAL SETTINGS */
 
 * {
   margin: 0;
@@ -31,10 +22,6 @@ body {
   color: var(--dark);
 }
 
-/* =====================================
-   NAVIGATION BAR
-===================================== */
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -51,8 +38,6 @@ body {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* LOGO */
-
 .logo h2 {
   color: var(--secondary);
   font-size: 28px;
@@ -64,8 +49,6 @@ body {
   font-size: 9px;
   letter-spacing: 1px;
 }
-
-/* NAVIGATION LINKS */
 
 .nav-links {
   display: flex;
@@ -85,8 +68,6 @@ body {
   color: var(--secondary);
 }
 
-/* BOOK BUTTON */
-
 .book-btn {
   background: var(--secondary);
   color: var(--dark);
@@ -105,10 +86,6 @@ body {
   transform: translateY(-3px);
 }
 
-/* =====================================
-   HOME HERO SECTION
-===================================== */
-
 .hero {
   min-height: 85vh;
 
@@ -125,8 +102,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-
-/* HERO CONTENT */
 
 .hero-content {
   max-width: 650px;
@@ -157,8 +132,6 @@ body {
   color: var(--white);
   margin-bottom: 30px;
 }
-
-/* HERO BUTTONS */
 
 .hero-buttons {
   display: flex;
@@ -205,10 +178,6 @@ body {
   color: var(--dark);
 }
 
-/* =====================================
-   WELCOME SECTION
-===================================== */
-
 .welcome-section {
   padding: 90px 10%;
   background: var(--white);
@@ -249,16 +218,10 @@ body {
   color: var(--secondary);
 }
 
-/* =====================================
-   FEATURED SERVICES
-===================================== */
-
 .home-services {
   padding: 90px 8%;
   background: #f1f7fc;
 }
-
-/* SECTION HEADING */
 
 .section-heading {
   text-align: center;
@@ -283,15 +246,11 @@ body {
   font-size: 14px;
 }
 
-/* SERVICE CONTAINER */
-
 .home-services-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
-
-/* SERVICE CARD */
 
 .home-service-card {
   background: var(--white);
@@ -323,16 +282,10 @@ body {
   line-height: 1.8;
 }
 
-/* VIEW SERVICES BUTTON */
-
 .services-button {
   text-align: center;
   margin-top: 45px;
 }
-
-/* =====================================
-   CALL TO ACTION
-===================================== */
 
 .home-cta {
   background: linear-gradient(120deg, var(--dark), var(--primary));
@@ -354,10 +307,6 @@ body {
   line-height: 1.8;
 }
 
-/* =====================================
-   FOOTER
-===================================== */
-
 .luxora-footer {
   background: var(--dark);
   text-align: center;
@@ -376,10 +325,6 @@ body {
   font-size: 13px;
   margin: 8px 0;
 }
-
-/* =====================================
-   RESPONSIVE DESIGN
-===================================== */
 
 @media (max-width: 1000px) {
   .navbar {
@@ -441,11 +386,6 @@ body {
     font-size: 26px;
   }
 }
-/* =====================================
-   ABOUT US PAGE
-===================================== */
-
-/* ABOUT HERO */
 
 .about-hero {
   min-height: 380px;
@@ -490,8 +430,6 @@ body {
   font-size: 15px;
   line-height: 1.8;
 }
-
-/* WHO WE ARE */
 
 .who-we-are {
   display: grid;
@@ -546,8 +484,6 @@ body {
   margin-top: 12px;
 }
 
-/* MISSION AND VISION */
-
 .mission-vision {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -589,8 +525,6 @@ body {
   line-height: 1.9;
 }
 
-/* OUR VALUES */
-
 .our-values {
   padding: 90px 8%;
   background: #f8fcff;
@@ -631,8 +565,6 @@ body {
   font-size: 13px;
   line-height: 1.8;
 }
-
-/* WHY CHOOSE US */
 
 .why-choose-us {
   padding: 90px 10%;
@@ -677,8 +609,6 @@ body {
   margin-right: 12px;
 }
 
-/* ABOUT PAGE RESPONSIVENESS */
-
 @media (max-width: 900px) {
   .who-we-are {
     grid-template-columns: 1fr;
@@ -715,9 +645,6 @@ body {
     font-size: 27px;
   }
 }
-/* =========================
-   SERVICES PAGE
-========================= */
 
 .services-hero {
   min-height: 380px;
@@ -878,8 +805,6 @@ body {
   background: white;
 }
 
-/* RESPONSIVE DESIGN */
-
 @media (max-width: 900px) {
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -903,11 +828,7 @@ body {
     padding: 40px 6%;
   }
 }
-/* =====================================
-   PAGE 4: PROJECTS PAGE
-===================================== */
 
-/* PROJECT HERO */
 .projects-hero {
   min-height: 380px;
   background:
@@ -945,7 +866,6 @@ body {
   background: white;
 }
 
-/* PROJECT INTRODUCTION */
 .projects-intro {
   text-align: center;
   padding: 65px 10%;
@@ -964,7 +884,6 @@ body {
   color: #555;
 }
 
-/* PROJECT GALLERY */
 .project-gallery {
   padding: 60px 7%;
   background: #f8fcff;
@@ -991,7 +910,6 @@ body {
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.13);
 }
 
-/* PROJECT IMAGES */
 .project-card img {
   width: 100%;
   height: 230px;
@@ -1000,7 +918,6 @@ body {
   display: block;
 }
 
-/* PROJECT INFORMATION */
 .project-info {
   padding: 22px;
 }
@@ -1024,7 +941,6 @@ body {
   line-height: 1.7;
 }
 
-/* PROJECT CALL TO ACTION */
 .projects-cta {
   background: #082567;
   color: white;
@@ -1055,11 +971,6 @@ body {
   background: white;
 }
 
-/* =====================================
-   PAGE 5: TEAM PAGE
-===================================== */
-
-/* TEAM HERO */
 .team-hero {
   min-height: 380px;
   background:
@@ -1097,7 +1008,6 @@ body {
   background: white;
 }
 
-/* TEAM INTRODUCTION */
 .team-intro {
   text-align: center;
   padding: 65px 10%;
@@ -1116,7 +1026,6 @@ body {
   color: #555;
 }
 
-/* TEAM MEMBERS SECTION */
 .team-section {
   padding: 60px 7%;
   background: #f8fcff;
@@ -1145,7 +1054,6 @@ body {
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.13);
 }
 
-/* TEAM IMAGES */
 .team-card img {
   width: 100%;
   height: 280px;
@@ -1154,7 +1062,6 @@ body {
   display: block;
 }
 
-/* TEAM INFORMATION */
 .team-info {
   padding: 22px;
 }
@@ -1178,7 +1085,6 @@ body {
   margin-top: 12px;
 }
 
-/* TEAM VALUES */
 .team-values {
   text-align: center;
   padding: 65px 7%;
@@ -1218,7 +1124,6 @@ body {
   line-height: 1.7;
 }
 
-/* TEAM CALL TO ACTION */
 .team-cta {
   background: #082567;
   color: white;
@@ -1249,11 +1154,6 @@ body {
   background: white;
 }
 
-/* =====================================
-   RESPONSIVE DESIGN
-===================================== */
-
-/* TABLETS */
 @media (max-width: 900px) {
   .projects-grid,
   .team-grid {
@@ -1265,7 +1165,6 @@ body {
   }
 }
 
-/* MOBILE PHONES */
 @media (max-width: 600px) {
   .projects-grid,
   .team-grid {
@@ -1297,8 +1196,6 @@ body {
   }
 }
 
-/* LUXORA LOGO */
-
 .logo {
   display: flex;
   align-items: center;
@@ -1311,9 +1208,6 @@ body {
   object-fit: contain;
   display: block;
 }
-/* ==============================
-   CONTACT PAGE
-============================== */
 
 .contact-hero {
   min-height: 300px;
@@ -1337,8 +1231,6 @@ body {
 .contact-hero p {
   font-size: 17px;
 }
-
-/* CONTACT SECTION */
 
 .contact-section {
   display: grid;
@@ -1378,8 +1270,6 @@ body {
 .contact-item p {
   color: #555;
 }
-
-/* CONTACT FORM */
 
 .contact-form {
   background: white;
@@ -1431,8 +1321,6 @@ body {
   color: #071426;
 }
 
-/* RESPONSIVE DESIGN */
-
 @media (max-width: 900px) {
   .contact-section {
     grid-template-columns: 1fr;
@@ -1454,11 +1342,6 @@ body {
     font-size: 23px;
   }
 }
-/* =================================
-   BOOKING PAGE
-================================= */
-
-/* BOOKING HERO */
 
 .booking-hero {
   min-height: 300px;
@@ -1483,8 +1366,6 @@ body {
   font-size: 17px;
 }
 
-/* BOOKING SECTION */
-
 .booking-section {
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
@@ -1493,8 +1374,6 @@ body {
   background: #f8fcff;
   align-items: start;
 }
-
-/* BOOKING INTRODUCTION */
 
 .booking-intro h2 {
   font-size: 30px;
@@ -1526,8 +1405,6 @@ body {
   color: #666;
   font-size: 14px;
 }
-
-/* BOOKING FORM */
 
 .booking-form {
   background: white;
@@ -1578,8 +1455,6 @@ body {
   resize: vertical;
 }
 
-/* BOOKING BUTTON */
-
 .booking-form button {
   background: #281107;
   color: white;
@@ -1598,8 +1473,6 @@ body {
   background: #adbf0f;
   color: #de830c;
 }
-
-/* RESPONSIVE DESIGN */
 
 @media (max-width: 900px) {
   .booking-section {
